@@ -280,8 +280,73 @@ input[type=submit]:hover {
   overflow: auto;
   } 
 
+/* media queries */
+@media (max-width: 640px) {
+ #logo {
+  display: block;
+  float: left;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+ } 
+ 
+ nav {
+  position: absolute;
+  bottom: -30px;
+  background: #333;
+  padding: 5px;
+  float: none;
+  margin: 25px 0;
+  display: block;
+  text-align: center;
+  width: 100%;
+  }
 
-@media (max-width: 640px ) {
+  #main-container {
+  max-width: 90%;
+  margin: auto;
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+} 
+
+.main-section {
+  float: none;
+  max-width: 100%;
+  padding: 30px;
+  margin: 10px 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.work img {
+  width: 50%;
+  border: 0 none;
+  opacity: 0.8;
+  overflow: hidden;
+
+}
+
+.sidebar {
+  float: none;
+  max-width: 100%;
+  margin: 0 0 40px;
+  float: none; 
+}
+
+.auth-image {
+  float: none;
+  width: 100%;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+}
+
+
+@media (max-width: 768px ) {
+ 
  #logo {
   display: block;
   float: left;
@@ -318,6 +383,88 @@ input[type=submit]:hover {
   border: 1px solid #ddd;
 }
 
+.work img {
+  position: relative;
+  width: 50%;
+  border: 0 none;
+  opacity: 0.8;
+  overflow: visible;
+
+}
+
+.sidebar {
+  float: none;
+  max-width: 100%;
+  margin: 0 0 40px;
+  float: none; 
+  position: relative;
+}
+
+.auth-image {
+  float: none;
+  width: 100%;
+}
+
+footer {
+  margin-top: 20px;
+}
+}
+
+@media (max-width: 980px ) {
+ #logo {
+  display: block;
+  float: left;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+ } 
+ 
+ nav {
+  position: absolute;
+  bottom: -30px;
+  background: #333;
+  padding: 5px;
+  float: none;
+  margin: 25px 0;
+  display: block;
+  text-align: center;
+  width: 100%;
+  }
+
+  #main-container {
+  max-width: 90%;
+  margin: auto;
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+} 
+
+.main-section {
+  float: none;
+  max-width: 100%;
+  padding: 30px;
+  margin: 10px 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.work {
+  position: absolute;
+  float: left;
+  padding-top: 5px;
+  margin-right: 40px;
+  max-width: 50%;
+  margin: 20px 5px 25px;
+  overflow: visible;
+}
+
+.work img {
+  width: 50%;
+  border: 0 none;
+  opacity: 0.8;
+  overflow: hidden;
+
+}
+
 .sidebar {
   float: none;
   max-width: 100%;
@@ -333,14 +480,4 @@ input[type=submit]:hover {
 footer {
   margin-top: 20px;
 }
-
-}
-
-
-@media (max-width: 768px ) {
- 
-}
-
-@media (max-width: 980px ) {
-  
 } 
