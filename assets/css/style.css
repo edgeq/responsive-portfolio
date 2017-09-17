@@ -67,63 +67,63 @@ nav a:first-child {
   * The sidebar is `270px` wide. 
   */
 
-.container {
-  width: 100%;
-  max-width: 960px;
-  min-height: 100%;
-  margin: 0 auto;
-  clear: both;
-}
+  .container {
+    width: 100%;
+    max-width: 960px;
+    min-height: 100%;
+    margin: 0 auto;
+    clear: both;
+  }
 
-/* main */
+  /* main */
 
-#main-container {
-  padding-top: 130px;
-  min-height: calc(100vh - 70px);
-}
+  #main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+  }
 
-.main-section {
-  float: left;
-  width: 100%;
-  max-width: 650px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #fff;
-  border: 1px solid #ddd;
-}
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
 
-/*paragraph styles*/
-h1,
-h2,
-h3,
-p {
-  margin-bottom: 20px;
+  /*paragraph styles*/
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 20px;
 
-}
+  }
 
-p:last-child {
-  margin-bottom: 0;
-}
+  p:last-child {
+    margin-bottom: 0;
+  }
 
-h1,
-h2,
-h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #777;
-}
+  h1,
+  h2,
+  h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #777;
+  }
 
-h1 {
-  padding-bottom: 20px;
-  font-size: 30px;
-  line-height: 49px;
-  border-bottom: 3px solid #ddd;
-}
+  h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+  }
 
-h2,
-h3 {
-  font-size: 22px;
-}
+  h2,
+  h3 {
+    font-size: 22px;
+  }
 
 
 /* footer 
@@ -278,31 +278,37 @@ input[type=submit]:hover {
   width: 100%; 
   border: 0; 
   overflow: auto;
-  } 
+} 
 
 /* media queries */
 @media (max-width: 640px) {
+ #masthead {
+  position: relative;
+
+}
+
  #logo {
   display: block;
+  position: relative;
   float: left;
   margin-bottom: 20px;
   width: 100%;
   height: 100%;
- } 
- 
- nav {
-  position: absolute;
+} 
+
+nav {
+  position: relative;
   bottom: -30px;
   background: #333;
   padding: 5px;
   float: none;
-  margin: 25px 0;
+  margin: 25px 0 10px 0 0;
   display: block;
   text-align: center;
   width: 100%;
-  }
+}
 
-  #main-container {
+#main-container {
   max-width: 90%;
   margin: auto;
   padding-top: 130px;
@@ -353,9 +359,9 @@ footer {
   margin-bottom: 20px;
   width: 100%;
   height: 100%;
- } 
- 
- nav {
+} 
+
+nav {
   position: absolute;
   bottom: -30px;
   background: #333;
@@ -365,9 +371,9 @@ footer {
   display: block;
   text-align: center;
   width: 100%;
-  }
+}
 
-  #main-container {
+#main-container {
   max-width: 90%;
   margin: auto;
   padding-top: 130px;
@@ -417,9 +423,9 @@ footer {
   margin-bottom: 20px;
   width: 100%;
   height: 100%;
- } 
- 
- nav {
+} 
+
+nav {
   position: absolute;
   bottom: -30px;
   background: #333;
@@ -429,9 +435,9 @@ footer {
   display: block;
   text-align: center;
   width: 100%;
-  }
+}
 
-  #main-container {
+#main-container {
   max-width: 90%;
   margin: auto;
   padding-top: 130px;
